@@ -39,8 +39,7 @@ console.log('Found modules:')
 
 getDirectories(options.sources, function (err, file_paths) {
   if (err) {
-    console.log('Error', err);
-    return;
+    throw new Error(err)
   }
 
   file_paths.forEach(( path ) => {
@@ -70,7 +69,7 @@ getDirectories(options.sources, function (err, file_paths) {
 
   fs.writeFile(options.output, output, function(err) {
     if(err) {
-      return console.log(err);
+      throw new Error(err)
     }
     console.log(`\nWritten new file to:\n${options.output}`)
   });
