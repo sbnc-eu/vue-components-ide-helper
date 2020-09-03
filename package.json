@@ -1,6 +1,6 @@
 {
   "name": "vue-components-ide-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Can be used to generate JS import and Vue.component() statements for all files in a folder.",
   "main": "src/index.js",
   "scripts": {
