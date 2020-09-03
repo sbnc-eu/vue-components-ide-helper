@@ -21,7 +21,7 @@ const options = yargs
 
 
 const getDirectories = function (src, callback) {
-  glob(src + '/**/*', callback);
+  glob(src + '/**/*.[vV][uU][eE]', callback);
 };
 
 // Need to generate this:
