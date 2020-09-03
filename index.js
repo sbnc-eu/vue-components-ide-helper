@@ -66,7 +66,7 @@ getDirectories(options.sources, function (err, file_paths) {
 
   })
 
-  var output = `${imports}\nexport default async ({ Vue }) => {\n${registrations}}`
+  var output = `//THIS FILE IS GENERATED AUTOMATICALLY. DO NOT EDIT!\n\n${imports}\nexport default async ({ Vue }) => {\n${registrations}}`
 
   fs.writeFile(options.output, output, function(err) {
     if(err) {
