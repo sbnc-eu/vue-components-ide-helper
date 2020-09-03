@@ -9,9 +9,9 @@ const fs = require('fs');
 const options = yargs
   .usage("Vue Component IDE helper\nUsage: -s <source_folder> -t <target_file> -r <relative_base>")
   .example([
-    ['$0 -s "/full/path/to/src/components/global" -o "path/to/output/file', 'Basic usage'],
+    ['$0 -s "/full/path/to/src/components/global" -o "path/to/output/file.js', 'Basic usage'],
     [''],
-    ['$0 -s "/full/path/to/src/components/global" -o "path/to/output/file -r "../src/components/global/', 'Use specified relative path for the imports in the output file.'],
+    ['$0 -s "/full/path/to/src/components/global" -o "path/to/output/file.js -r "../src/components/global/', 'Use specified relative path for the imports in the output file.'],
   ])
   .option("s", { alias: "sources",  describe: "The path to look for files under", type: "string", demandOption: true })
   .option("o", { alias: "output",   describe: "The path to write the generated file as", type: "string", demandOption: true })
