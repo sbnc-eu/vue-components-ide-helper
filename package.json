@@ -4,7 +4,8 @@
   "description": "Can be used to generate JS import and Vue.component() statements for all files in a folder.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node ."
   },
   "author": "Bence Szalai (bence@sbnc.eu)",
   "license": "MIT",
