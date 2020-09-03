@@ -1,0 +1,19 @@
+{
+  "name": "vue-components-ide-helper",
+  "version": "1.0.0",
+  "description": "Can be used to generate JS import and Vue.component() statements for all files in a folder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bence Szalai (bence@sbnc.eu)",
+  "license": "MIT",
+  "bin": {
+    "vue-components-ide-helper": "./index.js"
+  },
+  "dependencies": {
+    "glob": "^7.1.6",
+    "lodash": "^4.17.20",
+    "yargs": "^15.4.1"
+  }
+}
