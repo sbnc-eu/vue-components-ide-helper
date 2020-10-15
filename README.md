@@ -19,7 +19,9 @@ The purpose of the output `.js` file is not to be executed (even though it could
 ## Usage
 
 ### Installation
-Clone / download the project into any folder or install using npm, e.g.: `npm install --save-dev https://github.com/BenceSzalai/vue-components-ide-helper.git`
+Install using npm, e.g.: 
+
+`npm install --save vue-components-ide-helper`
 
 ### Execution
 * If installed as a node (dev) dependency, use one of these:
@@ -32,6 +34,14 @@ Clone / download the project into any folder or install using npm, e.g.: `npm in
   
 Where `<args>` is the placeholder for the command arguments, e.g.: `-s /path/to/src/components/global -o "path/to/output/file.js -r ../src/components/global`
 
+### Arguments
+The tool supports the following command line arguments:
+* `-s <components_dir_path>` *(mandatory)* : The path to the global Component files.
+* `-o <output_file_path>` *(mandatory)* : The path to write the generated `.js` file as.
+* `-r <relative_path>` *(optional)* : If provided, this path will be written as the `import` path of the Components in the output `.js` file instead of the path provided under `-s`. 
+  * If parameter `-s` is an absolute path, this is not necessary, but can be used to simplify the `import` statements in the generated `.js` file or to make it independent of the project path. (See the example below.)
+  * If parameter `-s` is a relative path, this may be required, because the relative path of the components folder may be different looking from the place of the execution of this tool and looking from the place of the output `.js` file. 
+
 ### Automation
 
 It is recommended to set up a file watch either in your IDE or using [npm-watch](https://www.npmjs.com/package/npm-watch) to run the above command every time there is a change made to the `components/global` folder.
@@ -42,7 +52,10 @@ It is recommended to set up a file watch either in your IDE or using [npm-watch]
 * `vue-components-ide-helper` is installed using `npm`
 * Create a `.ide-helper` folder in your project and make sure it is included in your IDE's indexing
 * Run in the `project-root` folder:
-`$(npm bin)/vue-components-ide-helper -s $(pwd)/src/components/global -o .ide-helper/components.js -r ../src/components/global`
+`$(npm bin)/vue-components-ide-helper -s $(pwd)/src/components/global -o .ide-helper/components.js -r ../src/components/global` where :
+  * `-s` is the path to look for the components,
+  * `-o` is the output file, and
+  * `-r` is the relative path of the components folder looking from the perspective of the output file.
 
 Now your project looks like this:
 ```
@@ -60,7 +73,7 @@ project-root
 ```
 
 And `components.js` contains this:
-```
+```js
 import Component1 from '../src/components/global/Component1.vue'
 import Component2 from '../src/components/global/Component2.vue'
 
@@ -78,3 +91,7 @@ This means your IDE can read `.ide-helper/components.js` and understand the deta
 If you are interested how to set up Webpack's `require.context()` feature, check out these resources:
 * https://vuejs.org/v2/guide/components-registration.html#Automatic-Global-Registration-of-Base-Components
 * https://webpack.js.org/guides/dependency-management/#requirecontext
+
+***
+
+Bence Szalai - https://sbnc.eu/

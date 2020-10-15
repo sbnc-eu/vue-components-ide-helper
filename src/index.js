@@ -13,10 +13,10 @@ const options = yargs
     [''],
     ['$0 -s "/full/path/to/src/components/global" -o "path/to/output/file.js -r "../src/components/global/', 'Use specified relative path for the imports in the output file.'],
   ])
-  .option("s", { alias: "sources",  describe: "The path to look for files under", type: "string", demandOption: true })
-  .option("o", { alias: "output",   describe: "The path to write the generated file as", type: "string", demandOption: true })
+  .option("s", { alias: "sources",  describe: "The path to the global Component files.", type: "string", demandOption: true })
+  .option("o", { alias: "output",   describe: "The path to write the generated `.js` file as.", type: "string", demandOption: true })
   .option("r", { alias: "relative", describe: "Use this as the path in the output file instead of the source path.", type: "string", demandOption: false })
-  .epilogue('for more information, find our manual at http://example.com')
+  .epilogue('For more information, check out the readme at https://github.com/BenceSzalai/vue-components-ide-helper/')
   .argv;
 
 
