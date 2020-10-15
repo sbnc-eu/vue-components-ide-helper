@@ -6,17 +6,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2020-10-15
+### Changed
+- Improved the readme and the help displayed by the tool in the command line.
+- Prepared to be released as an NPM package
+
 ## [1.0.1] - 2020-09-03
 ### Fixed
 - errors were not triggering non-zero exit code in node
 
 ### Added
-- Changelog based on based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
+- Changelog based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [1.0.0] - 2020-09-03
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/BenceSzalai/vue-components-ide-helper/compare/1.0.1...HEAD
+[Unreleased]: https://github.com/BenceSzalai/vue-components-ide-helper/compare/1.0.2...HEAD
+[1.0.2]: https://github.com/BenceSzalai/vue-components-ide-helper/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/BenceSzalai/vue-components-ide-helper/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/BenceSzalai/vue-components-ide-helper/releases/tag/1.0.0

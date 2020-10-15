@@ -1,14 +1,29 @@
 {
   "name": "vue-components-ide-helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Can be used to generate JS import and Vue.component() statements for all files in a folder.",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "generate": "node ."
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenceSzalai/vue-components-ide-helper.git"
   },
-  "author": "Bence Szalai (bence@sbnc.eu)",
+  "keywords": [
+    "IDE",
+    "vue",
+    "webpack",
+    "helper",
+    "tool"
+  ],
+  "author": {
+    "name" : "Bence Szalai",
+    "email" : "bence@sbnc.eu",
+    "url" : "https://sbnc.eu/"
+  },
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BenceSzalai/vue-components-ide-helper/issues"
+  },
+  "homepage": "https://github.com/BenceSzalai/vue-components-ide-helper/#readme",
+  "main": "src/index.js",
   "bin": {
     "vue-components-ide-helper": "src/index.js"
   },
@@ -16,5 +31,8 @@
     "glob": "^7.1.6",
     "lodash": "^4.17.20",
     "yargs": "^15.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
