@@ -1,6 +1,6 @@
 {
   "name": "vue-components-ide-helper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Can be used to generate JS import and Vue.component() statements for all files in a folder.",
   "repository": {
     "type": "git",
@@ -33,6 +33,7 @@
     "yargs": "^15.4.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node ."
   }
 }
