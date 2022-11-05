@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Support for Vue 3 syntax using an additonal `-v 3` parameter.
 
+### Changed
+- Updated dependencies to include newer versions where possible.
 
 ## [1.0.3] - 2020-10-15
 ### Fix

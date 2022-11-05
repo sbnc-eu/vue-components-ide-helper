@@ -28,9 +28,9 @@
     "vue-components-ide-helper": "src/index.js"
   },
   "dependencies": {
-    "glob": "^7.1.6",
+    "glob": "7.1.6 - 8",
     "lodash": "^4.17.20",
-    "yargs": "^15.4.1"
+    "yargs": "15.4.1 - 17"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
