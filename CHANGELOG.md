@@ -13,6 +13,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Updated dependencies to include newer versions where possible.
 
+### Removed
+- `package-lock.json` file is not needed, any version declared in `package.json` is fine
+
 ## [1.0.3] - 2020-10-15
 ### Fix
 - `npm run generate` script was removed by mistake.

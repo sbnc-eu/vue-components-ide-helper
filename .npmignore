@@ -105,3 +105,4 @@ fabric.properties
 
 # Other
 .wakatime-project
+package-lock.json
