@@ -1,5 +1,5 @@
 # Vue Components IDE Helper
-Can be used to generate JS import and Vue.component() statements for all files in a folder.
+Can be used to generate JS import and `Vue.component()` / `app.component()` statements for all files in a folder.
 
 ## Explanation
 
