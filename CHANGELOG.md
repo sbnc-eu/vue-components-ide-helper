@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2022-11-05
+### Added
+- Support for Vue 3 syntax using an additonal `-v 3` parameter.
+
+
 ## [1.0.3] - 2020-10-15
 ### Fix
 - `npm run generate` script was removed by mistake.
@@ -26,7 +31,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/BenceSzalai/vue-components-ide-helper/compare/1.0.3...HEAD
+[Unreleased]: https://github.com/BenceSzalai/vue-components-ide-helper/compare/1.1.0...HEAD
+[1.1.0]: https://github.com/BenceSzalai/vue-components-ide-helper/compare/1.0.3...1.1.0.
 [1.0.3]: https://github.com/BenceSzalai/vue-components-ide-helper/compare/1.0.1...1.0.3
 [1.0.2]: https://github.com/BenceSzalai/vue-components-ide-helper/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/BenceSzalai/vue-components-ide-helper/compare/1.0.0...1.0.1
