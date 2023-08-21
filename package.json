@@ -1,7 +1,7 @@
 {
   "name": "vue-components-ide-helper",
-  "version": "1.1.1",
-  "description": "Generate IDE helper JS file for all `*.vue` files in a folder - supports both Vue2 and Vu3 syntax.",
+  "version": "1.1.2",
+  "description": "Generate IDE helper JS file for all *.vue files in a folder - supports both Vue2 and Vue3 syntax.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sbnc-eu/vue-components-ide-helper.git"
