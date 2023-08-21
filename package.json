@@ -1,10 +1,10 @@
 {
   "name": "vue-components-ide-helper",
-  "version": "1.1.0",
-  "description": "Can be used to generate JS import and Vue.component() statements for all files in a folder.",
+  "version": "1.1.1",
+  "description": "Generate IDE helper JS file for all `*.vue` files in a folder - supports both Vue2 and Vu3 syntax.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BenceSzalai/vue-components-ide-helper.git"
+    "url": "git+https://github.com/sbnc-eu/vue-components-ide-helper.git"
   },
   "keywords": [
     "IDE",
@@ -20,9 +20,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BenceSzalai/vue-components-ide-helper/issues"
+    "url": "https://github.com/sbnc-eu/vue-components-ide-helper/issues"
   },
-  "homepage": "https://github.com/BenceSzalai/vue-components-ide-helper/#readme",
+  "homepage": "https://github.com/sbnc-eu/vue-components-ide-helper/#readme",
   "main": "src/index.js",
   "bin": {
     "vue-components-ide-helper": "src/index.js"

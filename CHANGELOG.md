@@ -6,9 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.1] - 2023-08-21
+### Changed
+- Updated `README.md`.
+- Updated description and links in `package.json`.
+
 ## [1.1.0] - 2022-11-05
 ### Added
-- Support for Vue 3 syntax using an additonal `-v 3` parameter.
+- Support for Vue 3 syntax using an additional `-v 3` parameter.
 
 ### Changed
 - Updated dependencies to include newer versions where possible.
@@ -36,7 +41,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/BenceSzalai/vue-components-ide-helper/compare/1.1.0...HEAD
+[Unreleased]: https://github.com/BenceSzalai/vue-components-ide-helper/compare/1.1.1...HEAD
+[1.1.1]: https://github.com/BenceSzalai/vue-components-ide-helper/compare/1.1.0...1.1.1.
 [1.1.0]: https://github.com/BenceSzalai/vue-components-ide-helper/compare/1.0.3...1.1.0.
 [1.0.3]: https://github.com/BenceSzalai/vue-components-ide-helper/compare/1.0.1...1.0.3
 [1.0.2]: https://github.com/BenceSzalai/vue-components-ide-helper/compare/1.0.1...1.0.2
